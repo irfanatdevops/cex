@@ -61,7 +61,7 @@ metadata:
   namespace: default
 spec:
   ports:
-  - nodePort: 30002 #CHANGE
+  - nodePort: 30702 #CHANGE
     port: 8000 #CHANGE
     protocol: TCP
   selector:
