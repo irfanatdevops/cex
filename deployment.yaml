@@ -22,7 +22,7 @@ spec:
         app: currency-exchange
     spec:
       containers:
-      - image: irffan/cex
+      - image: irffan/cex:v1
         imagePullPolicy: IfNotPresent
         name: currency-exchange
         ports:
